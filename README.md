@@ -86,10 +86,10 @@
 <img src="https://github.com/Mrinmoy-Aus/Waste-Detction-Awarness/blob/main/working.gif">
 
 ### How it works behind the scene:
-> This project is a prediction system which helps us predicting sores of a IPL match. In the csv file the dataset which I have used to basically predict the scores on the basis of batting team, bowling team , overs, runs , wickets,runs scored in previous over,wickets taken at previous over. I have used Lasso regression which not only helps in reducing over-fitting but it can help us in feature selection.
+> This project is a classification system which help us predict automatically waste based on these 9 types ["batteries", "clothes", "e-waste", "glass", "light blubs", "metal", "organic", "paper", "plastic"]. I am using transfer learning technique with the help of VGG-16.
 
-### Lasso regression
-Ridge and Lasso regression are some of the simple techniques to reduce model complexity and prevent over-fitting which may result from simple linear regression.I have compiled the model in a pickle file called first-innings-score-lasso.pkl.
+### VGG-16
+VGG-16 is a convolution neural network(CNN) which has been trained on imageNet dataset which contains 14 million images belonging to 1000 classes. I have customized my putput layer to 9 as I have only 9 classes.I have also used softmax as my activation layer and I have achived a 92.7% accuracy in my model. I have wrapped my model with the name classifyWaste.h5.
 
 ### Motivatiom:
-> Cricket lover. All credits to my god for assissting me.
+> Reuse Reduce Recycle to make a better earth to live.
