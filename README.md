@@ -79,7 +79,7 @@
 ### Screenshots
 
 ### Basic UI
-<img src="https://github.com/Mrinmoy-Aus/IPL_PREDICTION/blob/main/ui.png">
+<img src="https://github.com/Mrinmoy-Aus/Waste-Detction-Awarness/blob/main/ui.png">
 
 ### Working:
 > Demo of the project.
