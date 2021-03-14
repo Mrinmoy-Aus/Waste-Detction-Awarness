@@ -76,9 +76,6 @@
 ### To run the model:
 > python app.py
 
-### Hosted on web by using Heroku platform click on the link to see it:
-> https://mrinmoy-ipl-prediction.herokuapp.com/
-
 ### Screenshots
 
 ### Basic UI
